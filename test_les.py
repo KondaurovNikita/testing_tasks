@@ -35,7 +35,6 @@ def choise_of_pointers(N, M, K, not_free):
 
     return sorted(positions)
 
-
 def plot_points(N, not_free, new_positions):
     angles = np.linspace(0, 2 * np.pi, N, endpoint=False)
     x = np.cos(angles)
