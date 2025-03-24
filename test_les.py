@@ -65,7 +65,7 @@ def plot_points(N, not_free, new_positions):
 N = 8
 M = 4
 K = 2
-not_free = [0, 2, 4, 6]
+not_free = [0, 2, 4, 7]
 
 new_positions = choise_of_pointers(N, M, K, not_free)
 print("Новые позиции для объектов:", new_positions)
